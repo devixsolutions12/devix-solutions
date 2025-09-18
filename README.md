@@ -14,6 +14,27 @@ Or on Windows, you can:
 - Double-click `deploy.bat` 
 - Run `deploy.ps1` in PowerShell
 
+## 🔄 Automated Continuous Deployment
+
+✅ **Now with fully automated deployment!** 
+
+To trigger an automated deployment:
+
+```bash
+npm run automate-deployment
+```
+
+Or on Windows, you can:
+- Double-click `deploy-website.bat`
+- Run `deploy-website.ps1` in PowerShell
+
+This will:
+1. Create a deployment trigger commit
+2. Push to GitHub
+3. Automatically deploy to Vercel via GitHub Actions
+
+✨ **Your site will automatically update whenever you push changes to GitHub!**
+
 This will:
 1. Build your project
 2. Log you in to Vercel (if not already logged in)
