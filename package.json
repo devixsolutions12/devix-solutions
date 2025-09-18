@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "framer-motion": "^12.23.14",
+    "lucide-react": "^0.544.0",
+    "react-intersection-observer": "^9.16.0"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.4"
+  }
+}
