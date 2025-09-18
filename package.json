@@ -11,6 +11,8 @@
     "deploy": "node deploy.js",
     "dev-util": "node dev.js",
     "github-setup": "node github-setup.js",
+    "github-setup-fixed": "node github-setup-fixed.js",
+    "init-git-repo": "node init-git-repo.js",
     "setup-actions": "node setup-actions.js"
   },
   "dependencies": {
