@@ -22,21 +22,46 @@ This will:
 
 ## 🌐 GitHub Integration
 
-To set up GitHub integration and automatic deployment:
+✅ **GitHub setup has been completed!** Your code is now hosted at: https://github.com/devixsolutions12/devix-solutions
+
+To make updates to your GitHub repository:
 
 ```bash
-npm run github-setup
+git add .
+git commit -m "Your changes"
+git push origin master
 ```
 
-Or on Windows:
-- Double-click `github-setup.bat`
-- Run `github-setup.ps1` in PowerShell
-
 This will:
-1. Initialize Git repository (if not already)
-2. Create GitHub repository
+1. Add all changed files
+2. Create a new commit with your changes
 3. Push code to GitHub
-4. Set up for Vercel deployment
+
+## 🚀 Automatic Vercel Deployment
+
+To set up automatic deployments on every push to GitHub:
+
+1. Get your Vercel credentials:
+   - Vercel Token: https://vercel.com/account/tokens
+   - Organization ID: From Vercel project settings
+   - Project ID: From Vercel project settings
+
+2. Add these secrets to your GitHub repository:
+   - Go to https://github.com/devixsolutions12/devix-solutions/settings/secrets/actions
+   - Click "New repository secret" and add each of the following:
+
+   ```
+   Secret Name: VERCEL_TOKEN
+   Value: Your Vercel token
+
+   Secret Name: VERCEL_ORG_ID
+   Value: Your Vercel organization ID
+
+   Secret Name: VERCEL_PROJECT_ID
+   Value: Your Vercel project ID
+   ```
+
+3. The GitHub Actions workflow will automatically deploy on pushes to master branch
 
 ## 🛠️ Manual Deployment
 
