@@ -14,7 +14,8 @@
     "github-setup-fixed": "node github-setup-fixed.js",
     "init-git-repo": "node init-git-repo.js",
     "setup-actions": "node setup-actions.js",
-    "automate-deployment": "node automate-deployment.js"
+    "automate-deployment": "node automate-deployment.js",
+    "check-deployment": "node check-deployment.js"
   },
   "dependencies": {
     "framer-motion": "^12.23.14",
