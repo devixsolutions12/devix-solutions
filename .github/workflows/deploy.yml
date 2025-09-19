@@ -24,11 +24,13 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     
-    - name: Install dependencies
+    - name: Clean install dependencies
       run: npm ci
     
     - name: Build project
       run: npm run build
+      env:
+        NODE_OPTIONS: '--no-warnings'
     
     - name: Deploy to Vercel
       uses: amondnet/vercel-action@v27
@@ -40,4 +42,6 @@ jobs:
         working-directory: ./
       env:
         CI: true
+        NODE_OPTIONS: '--no-warnings'
       continue-on-error: false
+      timeout-minutes: 15

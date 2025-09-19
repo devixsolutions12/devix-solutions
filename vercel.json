@@ -9,20 +9,21 @@
   "routes": [
     {
       "src": "/api/contact",
-      "dest": "/api/contact/route.ts"
+      "dest": "/src/app/api/contact/route.ts"
     },
     {
       "src": "/api/auth/login",
-      "dest": "/api/auth/login/route.ts"
+      "dest": "/src/app/api/auth/login/route.ts"
     },
     {
       "src": "/api/contact/messages",
-      "dest": "/api/contact/messages/route.ts"
+      "dest": "/src/app/api/contact/messages/route.ts"
     }
   ],
   "github": {
     "silent": true
   },
   "buildCommand": "npm run build",
-  "outputDirectory": ".next"
+  "outputDirectory": ".next",
+  "installCommand": "npm install"
 }
