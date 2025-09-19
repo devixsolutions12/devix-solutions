@@ -17,7 +17,9 @@
     "automate-deployment": "node automate-deployment.js",
     "check-deployment": "node check-deployment.js",
     "fix-deployment": "node fix-deployment.js",
-    "verify-deployment": "node verify-deployment.js"
+    "verify-deployment": "node verify-deployment.js",
+    "simple-deploy": "node simple-deploy.js",
+    "deploy-live": "node deploy-live.js"
   },
   "dependencies": {
     "framer-motion": "^12.23.14",
