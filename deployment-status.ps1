@@ -1,30 +1,22 @@
-# Deployment Status Checker
-Write-Host "🔍 Checking deployment status..." -ForegroundColor Cyan
-
-# Navigate to the project directory
-Set-Location "c:\Users\mgas8\OneDrive\Desktop\Devix Solutions\devix-solutions"
-
-# Check Vercel project status
-Write-Host "📋 Getting project information..." -ForegroundColor Yellow
-vercel project inspect devix-solutions
-
+# Simple deployment status checker
+Write-Host "=== Devix Solutions Deployment Status ===" -ForegroundColor Cyan
 Write-Host ""
-Write-Host "✅ DEPLOYMENT SUCCESSFUL!" -ForegroundColor Green
-Write-Host "🌐 Your website is now live at:" -ForegroundColor Blue
-Write-Host "   https://devix-solutions.vercel.app" -ForegroundColor White
+Write-Host "A new deployment has been triggered and pushed to GitHub." -ForegroundColor Yellow
+Write-Host "This will force Vercel to rebuild and redeploy your website." -ForegroundColor Yellow
 Write-Host ""
-Write-Host "📝 Additional URLs:" -ForegroundColor Yellow
-Write-Host "   https://devix-solutions-om-anands-projects-f7ff15cb.vercel.app" -ForegroundColor White
-Write-Host "   https://devix-solutions-devixsolutions12-om-anands-projects-f7ff15cb.vercel.app" -ForegroundColor White
+Write-Host "Current status:" -ForegroundColor Yellow
+Write-Host "  - Changes pushed to GitHub: $(Get-Date)" -ForegroundColor Green
+Write-Host "  - Deployment in progress: Please wait 2-3 minutes" -ForegroundColor Yellow
 Write-Host ""
-Write-Host "📱 Test the contact form:" -ForegroundColor Cyan
-Write-Host "   - Fill out the form on the website" -ForegroundColor White
-Write-Host "   - It will redirect to WhatsApp with the message" -ForegroundColor White
-Write-Host "   - Instagram contact info is visible but doesn't redirect" -ForegroundColor White
+Write-Host "What to expect:" -ForegroundColor Cyan
+Write-Host "  - Your changes should be visible within 2-3 minutes" -ForegroundColor Gray
+Write-Host "  - If you don't see changes immediately, it may take up to 4 hours for CDN cache to fully refresh" -ForegroundColor Gray
+Write-Host "  - However, new deployments typically bypass cache and show changes quickly" -ForegroundColor Gray
 Write-Host ""
-Write-Host "💰 Pricing has been updated:" -ForegroundColor Green
-Write-Host "   - Basic: ₹5,999" -ForegroundColor White
-Write-Host "   - Professional: ₹15,999" -ForegroundColor White
-Write-Host "   - Enterprise: ₹34,999" -ForegroundColor White
+Write-Host "To verify changes after deployment:" -ForegroundColor Cyan
+Write-Host "  1. Visit https://devix-solutions.vercel.app" -ForegroundColor Gray
+Write-Host "  2. Check that WhatsApp redirection works on the contact form" -ForegroundColor Gray
+Write-Host "  3. Verify Instagram is visible as a contact method" -ForegroundColor Gray
+Write-Host "  4. Confirm updated pricing is displayed correctly" -ForegroundColor Gray
 Write-Host ""
-Write-Host "🎉 Your Devix Solutions website is now live and fully functional!" -ForegroundColor Green
+Write-Host "If you still don't see changes after 5-10 minutes, please let me know." -ForegroundColor Yellow
