@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1758293700047,
+    "name": "Test User",
+    "email": "test@example.com",
+    "message": "This is a test message to verify persistent storage",
+    "timestamp": "2025-09-19T14:55:00.047Z"
+  },
+  {
+    "id": 1758293728311,
+    "name": "First User",
+    "email": "first@example.com",
+    "message": "First test message",
+    "timestamp": "2025-09-19T14:55:28.311Z"
+  },
+  {
+    "id": 1758293728652,
+    "name": "Second User",
+    "email": "second@example.com",
+    "message": "Second test message",
+    "timestamp": "2025-09-19T14:55:28.652Z"
+  },
+  {
+    "id": 1758293729007,
+    "name": "Third User",
+    "email": "third@example.com",
+    "message": "Third test message",
+    "timestamp": "2025-09-19T14:55:29.008Z"
+  },
+  {
+    "id": 1758293914305,
+    "name": "Test User",
+    "email": "test@example.com",
+    "message": "This is a test message",
+    "timestamp": "2025-09-19T14:58:34.305Z"
+  },
+  {
+    "id": 1758294235152,
+    "name": "API Test User",
+    "email": "api@test.com",
+    "message": "This is a test message from API test script",
+    "timestamp": "2025-09-19T15:03:55.152Z"
+  },
+  {
+    "id": 1758294322035,
+    "name": "Complete Test User",
+    "email": "complete@test.com",
+    "message": "This is a complete test message to verify the entire flow",
+    "timestamp": "2025-09-19T15:05:22.035Z"
+  }
+]
