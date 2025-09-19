@@ -4,7 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
+    "build": "next build",
+    "build:vercel": "next build",
+    "build:ci": "npm run clean && next build",
+    "clean": "rimraf .next",
     "start": "next start",
     "lint": "eslint",
     "favicon": "node scripts/generate-favicon.js",
@@ -17,6 +20,7 @@
     "automate-deployment": "node automate-deployment.js",
     "check-deployment": "node check-deployment.js",
     "fix-deployment": "node fix-deployment.js",
+    "robust-fix-deployment": "node robust-fix-deployment.js",
     "verify-deployment": "node verify-deployment.js",
     "simple-deploy": "node simple-deploy.js",
     "deploy-live": "node deploy-live.js"
@@ -26,7 +30,8 @@
     "lucide-react": "^0.544.0",
     "next": "15.5.3",
     "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "react-dom": "19.1.0",
+    "react-intersection-observer": "^9.16.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
@@ -36,6 +41,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.5.3",
+    "rimraf": "^5.0.0",
     "sharp": "^0.32.6",
     "tailwindcss": "^4",
     "typescript": "^5"

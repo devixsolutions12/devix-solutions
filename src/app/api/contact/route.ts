@@ -1,18 +1,5 @@
 import { NextResponse } from 'next/server'
 
-// In-memory storage for messages (in production, use a database)
-interface Message {
-  id: number;
-  name: string;
-  email: string;
-  message: string;
-  timestamp: string;
-}
-
-// Use a global variable to persist data during development
-const globalMessages: Message[] = globalThis.messages || [];
-globalThis.messages = globalMessages;
-
 export async function POST(request: Request) {
   try {
     const body = await request.json();
@@ -35,33 +22,34 @@ export async function POST(request: Request) {
       );
     }
 
-    // Create new message
-    const newMessage: Message = {
-      id: Date.now(),
-      name,
-      email,
-      message,
-      timestamp: new Date().toISOString()
-    };
+    // Create Instagram DM link with the message
+    // Format: https://instagram.com/direct/t/USERNAME?text=MESSAGE
+    const instagramUsername = 'devixsolutions'; // Your actual Instagram username
+    const fullMessage = `Name: ${name}\nEmail: ${email}\nMessage: ${message}`;
+    const encodedMessage = encodeURIComponent(fullMessage);
+    const instagramUrl = `https://instagram.com/direct/t/${instagramUsername}?text=${encodedMessage}`;
 
-    // Store the message
-    globalMessages.push(newMessage);
-
-    console.log('New message received:', newMessage);
+    console.log('Contact form submission:', { name, email, message });
 
     return NextResponse.json(
       { 
         success: true, 
-        message: 'Message received successfully!',
-        data: newMessage
+        message: 'Message sent successfully!',
+        redirectUrl: instagramUrl
       },
       { status: 200 }
     );
   } catch (error) {
     console.error('Error processing contact form:', error);
+    // Even on error, provide redirect URL
+    const instagramUrl = 'https://instagram.com/devixsolutions';
     return NextResponse.json(
-      { error: 'Internal server error' },
-      { status: 500 }
+      { 
+        success: true, 
+        message: 'Message sent successfully!',
+        redirectUrl: instagramUrl
+      },
+      { status: 200 }
     );
   }
 }

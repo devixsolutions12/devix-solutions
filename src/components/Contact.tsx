@@ -30,11 +30,13 @@ const Contact = () => {
       const result = await response.json()
 
       if (response.ok) {
-        setSubmitStatus({
-          type: 'success',
-          message: 'Thank you for your message! We\'ll get back to you soon.'
-        })
-        setFormData({ name: '', email: '', message: '' })
+        // Redirect to Instagram DMs
+        if (result.redirectUrl) {
+          window.location.href = result.redirectUrl
+        } else {
+          // Fallback to Instagram profile if redirect URL not provided
+          window.location.href = 'https://instagram.com/devixsolutions'
+        }
       } else {
         setSubmitStatus({
           type: 'error',
@@ -42,10 +44,8 @@ const Contact = () => {
         })
       }
     } catch (error) {
-      setSubmitStatus({
-        type: 'error',
-        message: 'Network error. Please check your connection and try again.'
-      })
+      // Even on error, redirect to Instagram as requested
+      window.location.href = 'https://instagram.com/devixsolutions'
       console.error('Submission error:', error)
     } finally {
       setIsSubmitting(false)
@@ -71,10 +71,10 @@ const Contact = () => {
     {
       icon: Instagram,
       title: "Instagram", 
-      value: "@devixgoa",
+      value: "@devixsolutions",
       description: "Follow us on Instagram",
       color: "from-cyan-500 to-cyan-600",
-      action: "https://instagram.com/devixgoa"
+      action: "https://instagram.com/devixsolutions"
     },
     {
       icon: Mail,
