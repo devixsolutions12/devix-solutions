@@ -69,6 +69,17 @@ const Contact = () => {
       action: "tel:+916201732186"
     },
     {
+<<<<<<< HEAD
+=======
+      icon: Instagram,
+      title: "Instagram", 
+      value: "@devixsolutions",
+      description: "Follow us on Instagram",
+      color: "from-cyan-500 to-cyan-600",
+      action: "https://instagram.com/devixsolutions"
+    },
+    {
+>>>>>>> 310d1d022e6307842ea65472c307b656ed05340a
       icon: Mail,
       title: "Email",
       value: "solutionsdevix@gmail.com",

@@ -18,17 +18,21 @@
     "init-git-repo": "node init-git-repo.js",
     "setup-actions": "node setup-actions.js",
     "automate-deployment": "node automate-deployment.js",
+<<<<<<< HEAD
     "check-deployment": "node check-deployment.js",
     "fix-deployment": "node fix-deployment.js",
     "robust-fix-deployment": "node robust-fix-deployment.js",
     "verify-deployment": "node verify-deployment.js",
     "simple-deploy": "node simple-deploy.js",
     "deploy-live": "node deploy-live.js"
+=======
+    "check-deployment": "node check-deployment.js"
+>>>>>>> 310d1d022e6307842ea65472c307b656ed05340a
   },
   "dependencies": {
     "framer-motion": "^12.23.14",
     "lucide-react": "^0.544.0",
-    "next": "15.5.3",
+    "next": "^15.5.3",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-intersection-observer": "^9.16.0"
@@ -46,4 +50,8 @@
     "tailwindcss": "^4",
     "typescript": "^5"
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 310d1d022e6307842ea65472c307b656ed05340a

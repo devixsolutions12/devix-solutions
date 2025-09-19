@@ -1,0 +1,47 @@
+{
+<<<<<<< HEAD
+  "dependencies": {
+    "framer-motion": "^12.23.14",
+    "lucide-react": "^0.544.0",
+    "react-intersection-observer": "^9.16.0"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.4"
+  }
+}
+=======
+  "name": "devix-solutions",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint",
+    "favicon": "node scripts/generate-favicon.js",
+    "deploy": "node deploy.js",
+    "dev-util": "node dev.js",
+    "github-setup": "node github-setup.js",
+    "setup-actions": "node setup-actions.js"
+  },
+  "dependencies": {
+    "framer-motion": "^12.23.14",
+    "lucide-react": "^0.544.0",
+    "next": "15.5.3",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.3",
+    "sharp": "^0.32.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
+>>>>>>> 6cb189997c11552db28196b99aee850ab0edbd2d
