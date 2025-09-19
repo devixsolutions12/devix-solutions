@@ -42,7 +42,7 @@ const Pricing = () => {
     {
       id: 3,
       name: "Enterprise",
-      price: "₹75k",
+      price: "₹34999",
       description: "For large businesses with complex needs",
       popular: false,
       buttonText: "Get Quote",

@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { useState } from 'react'
-import { Send, Phone, Mail, MessageCircle, Clock } from 'lucide-react'
+import { Send, Phone, Mail, MessageCircle, Instagram, Clock } from 'lucide-react'
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -83,6 +83,14 @@ const Contact = () => {
       description: "Chat with us on WhatsApp",
       color: "from-green-500 to-green-600",
       action: "https://wa.me/916201732186"
+    },
+    {
+      icon: Instagram,
+      title: "Instagram", 
+      value: "@devixsolutions",
+      description: "Follow us on Instagram",
+      color: "from-cyan-500 to-cyan-600",
+      action: "https://instagram.com/devixsolutions"
     }
   ]
 
