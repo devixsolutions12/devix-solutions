@@ -16,7 +16,8 @@
     "setup-actions": "node setup-actions.js",
     "automate-deployment": "node automate-deployment.js",
     "check-deployment": "node check-deployment.js",
-    "fix-deployment": "node fix-deployment.js"
+    "fix-deployment": "node fix-deployment.js",
+    "verify-deployment": "node verify-deployment.js"
   },
   "dependencies": {
     "framer-motion": "^12.23.14",
