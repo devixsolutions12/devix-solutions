@@ -33,7 +33,7 @@ const Footer = () => {
   const contactInfo = [
     { icon: Phone, text: '+91 6201732186', link: 'tel:+916201732186' },
     { icon: Mail, text: 'solutionsdevix@gmail.com', link: 'mailto:solutionsdevix@gmail.com' },
-    { icon: Instagram, text: '@devixgoa', link: 'https://instagram.com/devixgoa' }
+    { icon: Instagram, text: '@devixsolutions', link: 'https://instagram.com/devixsolutions' }
   ]
 
   return (

@@ -41,7 +41,7 @@ const FloatingContact = () => {
             <Phone size={20} />
           </motion.a>
           <motion.a
-            href="https://instagram.com/devixgoa"
+            href="https://instagram.com/devixsolutions"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}

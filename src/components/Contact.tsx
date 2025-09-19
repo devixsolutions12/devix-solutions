@@ -71,10 +71,10 @@ const Contact = () => {
     {
       icon: Instagram,
       title: "Instagram", 
-      value: "@devixgoa",
+      value: "@devixsolutions",
       description: "Follow us on Instagram",
       color: "from-cyan-500 to-cyan-600",
-      action: "https://instagram.com/devixgoa"
+      action: "https://instagram.com/devixsolutions"
     },
     {
       icon: Mail,
