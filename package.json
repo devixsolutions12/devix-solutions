@@ -1,15 +1,4 @@
 {
-<<<<<<< HEAD
-  "dependencies": {
-    "framer-motion": "^12.23.14",
-    "lucide-react": "^0.544.0",
-    "react-intersection-observer": "^9.16.0"
-  },
-  "devDependencies": {
-    "sharp": "^0.34.4"
-  }
-}
-=======
   "name": "devix-solutions",
   "version": "0.1.0",
   "private": true,
@@ -47,4 +36,3 @@
     "typescript": "^5"
   }
 }
->>>>>>> 6cb189997c11552db28196b99aee850ab0edbd2d
