@@ -8,7 +8,7 @@ const Pricing = () => {
     {
       id: 1,
       name: "Basic",
-      price: "₹25k",
+      price: "₹5999",
       description: "Perfect for small businesses and startups",
       popular: false,
       buttonText: "Get Started",
@@ -24,7 +24,7 @@ const Pricing = () => {
     {
       id: 2,
       name: "Professional",
-      price: "₹45k",
+      price: "₹15999",
       description: "Ideal for growing businesses",
       popular: true,
       buttonText: "Choose Plan",

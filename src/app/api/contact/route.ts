@@ -22,12 +22,12 @@ export async function POST(request: Request) {
       );
     }
 
-    // Create Instagram DM link with the message
-    // Format: https://instagram.com/direct/t/USERNAME?text=MESSAGE
-    const instagramUsername = 'devixsolutions'; // Your actual Instagram username
-    const fullMessage = `Name: ${name}\nEmail: ${email}\nMessage: ${message}`;
+    // Create WhatsApp link with the message
+    // Format: https://wa.me/PHONE_NUMBER?text=MESSAGE
+    const whatsappNumber = '916201732186'; // Your WhatsApp number with country code
+    const fullMessage = `Hello, I'm ${name} (${email}). I'm interested in your services:\n\n${message}`;
     const encodedMessage = encodeURIComponent(fullMessage);
-    const instagramUrl = `https://instagram.com/direct/t/${instagramUsername}?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
 
     console.log('Contact form submission:', { name, email, message });
 
@@ -35,19 +35,19 @@ export async function POST(request: Request) {
       { 
         success: true, 
         message: 'Message sent successfully!',
-        redirectUrl: instagramUrl
+        redirectUrl: whatsappUrl
       },
       { status: 200 }
     );
   } catch (error) {
     console.error('Error processing contact form:', error);
     // Even on error, provide redirect URL
-    const instagramUrl = 'https://instagram.com/devixsolutions';
+    const whatsappUrl = 'https://wa.me/916201732186';
     return NextResponse.json(
       { 
         success: true, 
         message: 'Message sent successfully!',
-        redirectUrl: instagramUrl
+        redirectUrl: whatsappUrl
       },
       { status: 200 }
     );

@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { useState } from 'react'
-import { Send, Phone, Mail, Instagram, Clock } from 'lucide-react'
+import { Send, Phone, Mail, MessageCircle, Clock } from 'lucide-react'
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -30,12 +30,12 @@ const Contact = () => {
       const result = await response.json()
 
       if (response.ok) {
-        // Redirect to Instagram DMs
+        // Redirect to WhatsApp
         if (result.redirectUrl) {
           window.location.href = result.redirectUrl
         } else {
-          // Fallback to Instagram profile if redirect URL not provided
-          window.location.href = 'https://instagram.com/devixsolutions'
+          // Fallback to WhatsApp if redirect URL not provided
+          window.location.href = 'https://wa.me/916201732186'
         }
       } else {
         setSubmitStatus({
@@ -44,8 +44,8 @@ const Contact = () => {
         })
       }
     } catch (error) {
-      // Even on error, redirect to Instagram as requested
-      window.location.href = 'https://instagram.com/devixsolutions'
+      // Even on error, redirect to WhatsApp
+      window.location.href = 'https://wa.me/916201732186'
       console.error('Submission error:', error)
     } finally {
       setIsSubmitting(false)
@@ -69,20 +69,20 @@ const Contact = () => {
       action: "tel:+916201732186"
     },
     {
-      icon: Instagram,
-      title: "Instagram", 
-      value: "@devixsolutions",
-      description: "Follow us on Instagram",
-      color: "from-cyan-500 to-cyan-600",
-      action: "https://instagram.com/devixsolutions"
-    },
-    {
       icon: Mail,
       title: "Email",
       value: "solutionsdevix@gmail.com",
       description: "Send us an email",
       color: "from-green-500 to-green-600",
       action: "mailto:solutionsdevix@gmail.com"
+    },
+    {
+      icon: MessageCircle,
+      title: "WhatsApp", 
+      value: "+91 6201732186",
+      description: "Chat with us on WhatsApp",
+      color: "from-green-500 to-green-600",
+      action: "https://wa.me/916201732186"
     }
   ]
 
