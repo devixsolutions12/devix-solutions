@@ -1,0 +1,23 @@
+[
+    {
+        "_id": "6885bd6fcd8c9ab9e71142e7",
+        "quote": "Devix Solutions built a stunning website for my travel business — it helped increase my sales by over 300%! Truly grateful.",
+        "author": "Mark",
+        "role": "Individual",
+        "company": "~"
+    },
+    {
+        "_id": "6885bcbecd8c9ab9e71142d3",
+        "quote": "Devix Solutions and their services are truly impressive. Their developers quickly understood our requirements and executed everything flawlessly.",
+        "author": "Suraj",
+        "role": "Founder",
+        "company": "Samajik Media"
+    },
+    {
+        "_id": "6885bc96cd8c9ab9e71142cd",
+        "quote": "Anubhav and his team at Devix are fantastic! Their custom web app and software development solutions delivered fast, high-quality results and significantly boosted our work efficiency.",
+        "author": "Twyla",
+        "role": "CEO",
+        "company": "Totem"
+    }
+]

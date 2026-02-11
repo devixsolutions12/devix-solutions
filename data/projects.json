@@ -1,0 +1,108 @@
+[
+    {
+        "_id": "6889952a5e406d68f16ffefe",
+        "title": "Fartech",
+        "description": "Our team supported segment-level enhancements and visual alignment for a global fashion retail platform’s kids section.",
+        "tech": [
+            "NERN"
+        ],
+        "image": "https://res.cloudinary.com/dpkclfcnv/image/upload/v1753847079/annovas-agency/projects/qc6dem9ccra3h1xgs77p.jpg",
+        "link": "https://www.farfetch.com/in/shopping/kids/items.aspx"
+    },
+    {
+        "_id": "688994885e406d68f16ffef7",
+        "title": "Volnex",
+        "description": "A modern web presence developed for a company offering technical or product-based services, with clarity and brand consistency.",
+        "tech": [
+            "Mern"
+        ],
+        "image": "https://res.cloudinary.com/dpkclfcnv/image/upload/v1753846917/annovas-agency/projects/vwrulrqca2de7pwnyzfg.jpg",
+        "link": "https://www.volnex.com/"
+    },
+    {
+        "_id": "688993e55e406d68f16ffef0",
+        "title": "Elevate chairs",
+        "description": "An ergonomic e‑commerce platform built for Elevate Chairs, showcasing stylish executive office and massage desk chairs.",
+        "tech": [
+            "SHOPIFY"
+        ],
+        "image": "https://res.cloudinary.com/dpkclfcnv/image/upload/v1753846754/annovas-agency/projects/vwdptr9ogbrr6ea5rqha.jpg",
+        "link": "https://elevatechairs.com/"
+    },
+    {
+        "_id": "688993515e406d68f16ffee9",
+        "title": "Oudalabraj - Ecommerce website",
+        "description": "A refined e‑commerce website for a perfumery brand specializing in attar oils and concentrated fragrances.",
+        "tech": [
+            "SHOPIFY"
+        ],
+        "image": "https://res.cloudinary.com/dpkclfcnv/image/upload/v1753846606/annovas-agency/projects/ffucnkhhi8xlupf6mhpz.jpg",
+        "link": "https://oudalabraj.pk/"
+    },
+    {
+        "_id": "6889928e5e406d68f16ffee2",
+        "title": "FULLY FUNCTIONAL ECOM APP",
+        "description": "A fully custom developed ecom with multiple panels for one of our client.",
+        "tech": [
+            "React native",
+            "App"
+        ],
+        "image": "https://res.cloudinary.com/dpkclfcnv/image/upload/v1753846411/annovas-agency/projects/u8xf3zmo40e6ex8znwwf.jpg",
+        "link": "https://play.google.com/store/apps/details?id=org.codemind.phalbites&pli=1"
+    },
+    {
+        "_id": "688991c32e5971798974ccbc",
+        "title": "Arham rubber international",
+        "description": "A professional web platform developed for a rubber industry enterprise.",
+        "tech": [
+            "NEXT JS",
+            "SUPABASE"
+        ],
+        "image": "https://res.cloudinary.com/dpkclfcnv/image/upload/v1753846209/annovas-agency/projects/byu39ckfwmv5riztdk2w.jpg",
+        "link": "https://www.arhmrubberint.com/"
+    },
+    {
+        "_id": "6888a5d9ba0039eb74af9542",
+        "title": "Thera",
+        "description": "A clean and modern e‑commerce platform built for a wellness brand offering hair growth solutions.",
+        "tech": [
+            "Wordpress"
+        ],
+        "image": "https://res.cloudinary.com/dpkclfcnv/image/upload/v1753785815/annovas-agency/projects/erjoim580vkkjgffh3rl.jpg",
+        "link": "https://therahair.com/"
+    },
+    {
+        "_id": "6888a545ba0039eb74af953b",
+        "title": "Totem",
+        "description": "A thoughtfully designed website for a nonprofit platform called Totem.",
+        "tech": [
+            "React js",
+            "mongodb",
+            "vps"
+        ],
+        "image": "https://res.cloudinary.com/dpkclfcnv/image/upload/v1753785666/annovas-agency/projects/jeywqmjqpgbsjwx53vy6.jpg",
+        "link": "https://www.totemservices.org/"
+    },
+    {
+        "_id": "6888a43dba0039eb74af9534",
+        "title": "ADS WALA",
+        "description": "A professionally developed website for a digital advertising agency.",
+        "tech": [
+            "Next js",
+            "VPS"
+        ],
+        "image": "https://res.cloudinary.com/dpkclfcnv/image/upload/v1753785402/annovas-agency/projects/mbitx4srk4ruf4bnz8gs.jpg",
+        "link": "https://adswalaa.com/"
+    },
+    {
+        "_id": "68889b94f3f2c2eb9ee32bf0",
+        "title": "Life is a beach",
+        "description": "We revamped their online presence with a vibrant, mobile-optimized website that reflects the travel brand’s playful and luxurious aesthetic.",
+        "tech": [
+            "React js",
+            "VPS"
+        ],
+        "image": "https://res.cloudinary.com/dpkclfcnv/image/upload/v1753783156/annovas-agency/projects/xanszzjcf7sub4fobexm.jpg",
+        "link": "https://www.lifeisbeach.world/"
+    }
+]

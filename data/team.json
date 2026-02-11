@@ -1,0 +1,37 @@
+[
+    {
+        "_id": "68e3448d8e02ff78884b4eb6",
+        "name": "Ransh Vishwakarma",
+        "role": "Creative Director",
+        "bio": "Ransh leads the creative direction at Devix Solutions, crafting visuals, motion, and brand experiences that connect innovation with design clarity",
+        "avatar": "https://res.cloudinary.com/dpkclfcnv/image/upload/v1759724684/annovas-agency/team/xwrjmwwxgyt5t5y2i1et.jpg"
+    },
+    {
+        "_id": "6885bbabcd8c9ab9e71142a5",
+        "name": "Anubhav Singh",
+        "role": "Founder",
+        "bio": "Anubhav Singh is the sharp and tallented minded guy who have vision to change the IT SERVICES with- Devix Solutions !",
+        "avatar": "https://res.cloudinary.com/dpkclfcnv/image/upload/v1753594793/annovas-agency/team/wj3f9ccwtyb6mvscsea6.jpg"
+    },
+    {
+        "_id": "6885bb1fcd8c9ab9e7114292",
+        "name": "Rupamdas",
+        "role": "Full Stack Developer",
+        "bio": "Iam full stack developer having web app and software development skills working with Devix to give best services.",
+        "avatar": "https://res.cloudinary.com/dpkclfcnv/image/upload/v1753594883/annovas-agency/team/r8metoisgbrehj72pwej.png"
+    },
+    {
+        "_id": "68850057bfdca39487f377be",
+        "name": "Dhiraj Gogai",
+        "role": "Full Stack Developer",
+        "bio": "A developer with a strong technical core and a creative edge. He’s the brain behind the build. He codes ideas into reality with precision and performance!!",
+        "avatar": "https://res.cloudinary.com/dpkclfcnv/image/upload/v1753594867/annovas-agency/team/p33fyrj2h39qrojrwegd.jpg"
+    },
+    {
+        "_id": "6884faffdc8dc841f9197d91",
+        "name": "Hetvi Patel",
+        "role": "Social Media Manager",
+        "bio": "Hetvi blends innovation with intention. She turns big ideas into real and measurable results!!",
+        "avatar": "https://res.cloudinary.com/dpkclfcnv/image/upload/v1753594820/annovas-agency/team/gnvfaoezvpkeezj0ic5g.jpg"
+    }
+]
