@@ -7,8 +7,12 @@ const services = [
         title: "Website Development",
         description: "We build high-performance, scalable websites using the latest technologies like Next.js, React, and Tailwind CSS.",
         icon: (
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 18" />
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-6 h-6">
+                <rect x="2" y="3" width="20" height="14" rx="2" fill="none" stroke="currentColor" strokeWidth="1.5" />
+                <line x1="8" y1="21" x2="16" y2="21" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+                <line x1="12" y1="17" x2="12" y2="21" stroke="currentColor" strokeWidth="1.5" />
+                <path d="M9 8l-2 2 2 2" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M15 8l2 2-2 2" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
         ),
     },
@@ -16,8 +20,14 @@ const services = [
         title: "App Development",
         description: "Native and cross-platform mobile applications that provide seamless user experiences on iOS and Android.",
         icon: (
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-6 h-6">
+                <rect x="5" y="1" width="14" height="22" rx="3" fill="none" stroke="currentColor" strokeWidth="1.5" />
+                <line x1="5" y1="5" x2="19" y2="5" stroke="currentColor" strokeWidth="1.5" />
+                <line x1="5" y1="19" x2="19" y2="19" stroke="currentColor" strokeWidth="1.5" />
+                <circle cx="12" cy="21" r="0.5" fill="currentColor" />
+                <rect x="8" y="8" width="8" height="4" rx="1" fill="none" stroke="currentColor" strokeWidth="1" opacity="0.5" />
+                <line x1="8" y1="14" x2="14" y2="14" stroke="currentColor" strokeWidth="1" strokeLinecap="round" opacity="0.5" />
+                <line x1="8" y1="16" x2="11" y2="16" stroke="currentColor" strokeWidth="1" strokeLinecap="round" opacity="0.5" />
             </svg>
         ),
     },
@@ -25,8 +35,13 @@ const services = [
         title: "UI/UX Design",
         description: "User-centric design that combines aesthetics with functionality to increase engagement and conversion rates.",
         icon: (
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9.53 16.122a3 3 0 0 0-5.78 1.128 2.25 2.25 0 0 1-2.4 2.245 4.5 4.5 0 0 0 8.4-2.245c0-.399-.078-.78-.22-1.128Zm0 0a15.998 15.998 0 0 0 3.388-1.62m-5.043-.025a15.994 15.994 0 0 1 1.622-3.395m3.42 3.42a15.995 15.995 0 0 0 4.764-4.648l3.876-5.814a1.151 1.151 0 0 0-1.597-1.597L14.146 6.32a16.084 16.084 0 0 0-4.649 4.763m3.42 3.42a6.776 6.776 0 0 0-3.42-3.42" />
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-6 h-6">
+                <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" strokeWidth="1.5" />
+                <circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" strokeWidth="1.5" />
+                <line x1="12" y1="2" x2="12" y2="5" stroke="currentColor" strokeWidth="1.5" />
+                <line x1="12" y1="19" x2="12" y2="22" stroke="currentColor" strokeWidth="1.5" />
+                <line x1="2" y1="12" x2="5" y2="12" stroke="currentColor" strokeWidth="1.5" />
+                <line x1="19" y1="12" x2="22" y2="12" stroke="currentColor" strokeWidth="1.5" />
             </svg>
         ),
     },
@@ -34,8 +49,10 @@ const services = [
         title: "Strategy & Branding",
         description: "Comprehensive branding strategies that define your identity and position your business for long-term success.",
         icon: (
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 0 0 1.5-.189m-1.5.189a6.01 6.01 0 0 1-1.5-.189m3.75 7.478a12.06 12.06 0 0 1-4.5 0m3.75 2.383a14.406 14.406 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-6 h-6">
+                <path d="M12 2L2 7l10 5 10-5-10-5z" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" />
+                <path d="M2 12l10 5 10-5" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M2 17l10 5 10-5" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
         ),
     },
@@ -43,11 +60,29 @@ const services = [
         title: "SEO & Maintenance",
         description: "Ongoing optimization and support to ensure your digital presence is always performing at its peak.",
         icon: (
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-6 h-6">
+                <circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" strokeWidth="1.5" />
+                <line x1="16.5" y1="16.5" x2="21" y2="21" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+                <path d="M8 11h6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+                <path d="M11 8v6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
             </svg>
         ),
-    }
+    },
+    {
+        title: "AI Agents & Integration",
+        description: "Custom AI agents and intelligent integrations that automate workflows and enhance your website with smart capabilities.",
+        icon: (
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-6 h-6">
+                <rect x="4" y="4" width="16" height="16" rx="3" fill="none" stroke="currentColor" strokeWidth="1.5" />
+                <circle cx="9" cy="10" r="1.5" fill="currentColor" />
+                <circle cx="15" cy="10" r="1.5" fill="currentColor" />
+                <path d="M9 15c0 0 1.5 2 3 2s3-2 3-2" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+                <line x1="12" y1="1" x2="12" y2="4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+                <line x1="4" y1="12" x2="1" y2="12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+                <line x1="23" y1="12" x2="20" y2="12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+            </svg>
+        ),
+    },
 ];
 
 export const Services = () => {
