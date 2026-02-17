@@ -412,7 +412,7 @@ export default function Home() {
 
       <Services />
 
-      <section className="py-24 relative">
+      <section id="tech-stack" className="py-24 relative">
         <div className="container mx-auto px-6 text-center mb-12">
           <h2 className="text-4xl font-bold text-slate-900 dark:text-white">Our Tech Stack</h2>
           <p className="text-purple-600 dark:text-purple-400 mt-2 max-w-xl mx-auto">We leverage 20+ modern technologies across frontend, backend, databases, cloud, and DevOps to deliver production-grade solutions.</p>
